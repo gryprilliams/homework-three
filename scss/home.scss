@@ -1,0 +1,245 @@
+.home {
+    .hero {
+        width: 1280px;
+        height: 500px;
+        background-image: url(../../images/hero.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: -93px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .herotxt1 {
+            width: 232px;
+            height: 80px;
+            margin-top: 69px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            h1 {
+                color: white;
+                font-family: Proxima-Condensed;
+                font-size: 60px;
+            }
+        }
+        .herotxt2 {
+            width: 714px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                font-family: GillSans;
+                color: white;
+                font-size: 20px;
+            }
+        }
+        .readmore {
+            width: 120px;
+            height: 40px;
+            background-color: #79addc;
+            border: none;
+            font-family: GillSans;
+            font-size: large;
+            color: white;
+        }
+    }
+    .promo-trips {
+        width: auto;
+        height: 304px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .israel {
+            width: 236px;
+            height: 300px;
+            background-image: url(../../images/tour-01.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .israeltxt1 {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 20px;
+                h1 {
+                    color: white;
+                    font-family: Proxima-Condensed;
+                    font-size: 60px;
+                }
+            }
+            .israeltxt2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p {
+                    color: white;
+                    font-family: Proxima-Condensed;
+                    font-size: 30px;
+                }
+            }
+            .learnmore {
+                width: 133px;
+                height: 40px;
+                background-color: #79addc;
+                border-radius: 20%;
+                border: none;
+                color: white;
+                font-family: GillSans;
+                font-size: 15px;
+            }
+        }
+        .usa {
+            width: 236px;
+            height: 300px;
+            background-image: url(../../images/tour-02.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .usatxt1 {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 20px;
+                h1 {
+                    color: white;
+                    font-family: Proxima-Condensed;
+                    font-size: 60px;
+                }
+            }
+            .usatxt2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p {
+                    color: white;
+                    font-family: Proxima-Condensed;
+                    font-size: 30px;
+                }
+            }
+            .learnmore {
+                width: 133px;
+                height: 40px;
+                background-color: #79addc;
+                border-radius: 20%;
+                border: none;
+                color: white;
+                font-family: GillSans;
+                font-size: 15px;
+            }
+        }
+        .australia {
+            width: 236px;
+            height: 300px;
+            background-image: url(../../images/tour-03.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .australiatxt1 {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 20px;
+                h1 {
+                    color: white;
+                    font-family: Proxima-Condensed;
+                    font-size: 60px;
+                }
+            }
+            .australiatxt2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p {
+                    color: white;
+                    font-family: Proxima-Condensed;
+                    font-size: 30px;
+                }
+            }
+            .learnmore {
+                width: 133px;
+                height: 40px;
+                background-color: #79addc;
+                border-radius: 20%;
+                border: none;
+                color: white;
+                font-family: GillSans;
+                font-size: 15px;
+            }
+        }
+    }
+    .booking {
+        width: 818px;
+        height: 819px;
+        margin-left: 230px;
+        display: block;
+        h1 {
+            color: black;
+            font-family: Proxima-Condensed;
+            font-size: 60px;
+        }
+        h2 {
+            color: black;
+            font-family: GillSans;
+            font-size: 18px;
+        }
+        .form {
+            width: autopx;
+            height: 819px;
+            .textInputs1 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                input{
+                    width: 344px;
+                    height: 58px;
+                }
+            }
+            .textInputs2 {
+                display: flex;
+                input {
+                    width: 750px;
+                    height: 58px;
+                }
+            }
+            .textInputs3 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                input {
+                    width: 103px;
+                    height: 58px;
+                }
+            }
+            .textInputs4 {
+                display: block;
+                input {
+                     width: 818px;
+                     height: 192px;
+                }
+            }
+            .submit {
+                width: 818px;
+                height: 58px;
+                margin-top: 10px;
+                background-color: #79addc;
+                border-radius: 15%;
+                border: none;
+                color: white;
+                font-family: Proxima-Condensed;
+                font-size: large;
+            }
+        }
+    }
+}
